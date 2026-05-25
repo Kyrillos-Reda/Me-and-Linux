@@ -42,9 +42,17 @@
     - But I faced another problem `error: could not open file /var/cache/pacman/pkg/download-(random staff here)` so I forced remove it with `rm -rf `.
 
   4- **Pacman and AUR**
-    - ***Packman*** has official repositories that contain packages, inspected and digitally signed by official distribution developers. It's the most stable, it's fully kernel-compatible, and it comes with reliable periodic security updates. So this is your default option.
-    - ***Arch User Repository (AUR)*** It saves you the hassle of manual search and installation, guarantees that the program will be completely deleted if you want via the package manager, and it automatically talks with the yay command. It's your next option after pacman.
-    - 
+    - After asking gimini to understand the difference, this is the summary \\/\\/\\/
+      - ***Packman*** has official repositories that contain packages, inspected and digitally signed by official distribution developers. It's the most stable, it's fully kernel-compatible, and it comes with reliable periodic security updates. So this is your default option. Install with `sudo pacman -S program_name`.
+      - ***Arch User Repository (AUR)*** It saves you the hassle of manual search and installation, guarantees that the program will be completely deleted if you want via the package manager, and it automatically talks with the yay command. It's your next option after pacman. Install with `yay -S program_name` {no sudo needed }.
+  - The 3rd option "Official website". The option of last resort (only resort to it for the most urgent).
+    - Because manual installation makes the system blind to these programs; the programs won't talk to the rest of the system, and when you want to erase them, you'll have to search for their files manually, and you may leave a residue that breaks the system later.
+
+  5- **Installing a program**
+    - I tried to install zen browser from pacman. Turns out it doesn't exisit in an official repo so I needed to use yay (to download from AUR).
+    - `yay -S zen` and also didn't found it. I asked gemini again. Turns out the package's name is not **zen**, It's **zen-browser-bin**. Also learnt that next time I need to search using `yay -Ss program_name` to know the package's name.
+    - You guessed it, another problem. It was like no package found so I got a break.
+    - Next day I tried the same command again and surprisingly it worked. That was strange so I asked gemini again. 
 
 
     
