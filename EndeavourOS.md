@@ -74,4 +74,4 @@ After asking Gemini to understand the difference, here is the summary:
 #### fastfetch
 - The one program we can't forget about. No real benefits, it is just pretty.
 
-  <img width="1280" height="1024" alt="Screenshot" src="https://github.com/user-attachments/assets/c666e38e-23d5-44a6-8ab7-9cd80221ed6e" />
+  <img width="1266" height="731" alt="image" src="https://github.com/user-attachments/assets/4eb4e431-89fa-4b33-bd5b-40c19799d33c" />
