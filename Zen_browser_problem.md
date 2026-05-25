@@ -1,4 +1,4 @@
-# The Story of Installing Zen Browser
+# Zen Browser issue
 
 My first real challenge in Linux was installing the **Zen Browser**. Since I couldn't install it automatically using the usual tools, I had to learn how to do it manually using the terminal.
 
